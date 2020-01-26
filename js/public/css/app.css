@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: -webkit-box;
+  display: flex;
+}
+
+.container {
+  width: 1180px;
+  margin: auto;
+}
+
+header {
+  background-color: black;
+  height: 100px;
+}
+
+main {
+  background-color: grey;
+  padding: 60px 0;
+}
+
+main .container {
+  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .album {
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+main .album p {
+  color: white;
+}
+
+main .album img {
+  width: 100%;
+}
+
+main .album span {
+  display: block;
+}
+
+main .album span.artist {
+  color: grey;
+}
+
+main .album span.year {
+  color: white;
+}
+

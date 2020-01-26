@@ -1,0 +1,37 @@
+main{
+  background-color: grey;
+  padding: 60px 0;
+  
+  .container{
+    flex-wrap: wrap;
+    justify-content: space-evenly
+  }
+
+    .album{
+      width: 250px;
+      padding: 20px;
+      text-align: center;
+      background-color: black;
+      margin-bottom: 20px;
+
+        p{
+          color: white;
+
+        }
+
+        img{
+          width: 100%;
+        }
+
+        span{
+          display: block;
+
+          &.artist{
+            color: grey;
+          }
+          &.year{
+            color: white;
+          }
+        }
+  }
+}
